@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:rahul_portfolio/pages/about_page.dart';
 import 'package:rahul_portfolio/widgets/drawer.dart';
 import 'package:rahul_portfolio/widgets/responsive.dart';
 
@@ -21,7 +22,7 @@ class MainPage extends StatelessWidget {
                 children: [
                   LandingPage(),
                   // Add other sections here if needed
-                  // AboutSection(),
+                  AboutPage()
                 ],
               ),
             ),
