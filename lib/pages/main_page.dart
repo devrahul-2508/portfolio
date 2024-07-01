@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:rahul_portfolio/pages/about_page.dart';
+import 'package:rahul_portfolio/pages/skill_page.dart';
 import 'package:rahul_portfolio/widgets/drawer.dart';
 import 'package:rahul_portfolio/widgets/responsive.dart';
 
@@ -13,7 +14,7 @@ class MainPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       endDrawer: (Responsive.isMobile(context)) ? const AppDrawer() : null,
-      body: const Column(
+      body: Column(
         children: [
           HeaderNavigation(),
           Expanded(
@@ -22,7 +23,8 @@ class MainPage extends StatelessWidget {
                 children: [
                   LandingPage(),
                   // Add other sections here if needed
-                  AboutPage()
+                  AboutPage(),
+                  SkillsPage()
                 ],
               ),
             ),
