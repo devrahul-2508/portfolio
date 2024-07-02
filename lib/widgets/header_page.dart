@@ -17,7 +17,7 @@ class HeaderNavigation extends StatelessWidget {
     return AppBar(
       backgroundColor: Colors.black,
       title: const Text(
-        'MH MORSEKURJATUL',
+        'RAHUL ROY',
         style: TextStyle(
           color: Colors.white,
           fontWeight: FontWeight.bold,
@@ -43,7 +43,7 @@ class HeaderNavigation extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
           const Text(
-            'MH MORSEKURJATUL',
+            'RAHUL ROY',
             style: TextStyle(
               color: Colors.white,
               fontWeight: FontWeight.bold,
@@ -63,7 +63,8 @@ class HeaderNavigation extends StatelessWidget {
                 },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: const Color(0xFFADFF00),
-                  padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+                  padding:
+                      const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
                 ),
                 child: const Text(
                   'HIRE ME',

@@ -14,7 +14,7 @@ class AppDrawer extends StatelessWidget {
               color: Colors.black,
             ),
             child: Text(
-              'MH MORSEKURJATUL',
+              'RAHUL ROY',
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 24,
